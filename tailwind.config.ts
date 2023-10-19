@@ -1,3 +1,4 @@
+// ./tailwind.config.ts
 import type { Config } from 'tailwindcss'
 
 const config: Config = {
@@ -13,8 +14,12 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        'blue-hover': '#0070f3',
+      },
     },
   },
   plugins: [],
 }
+
 export default config
